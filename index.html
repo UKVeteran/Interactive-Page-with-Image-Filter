@@ -1,0 +1,28 @@
+<html>
+<script src='https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js'>
+</script>
+<table>
+  <tr>
+    <td></td>
+    <td>
+      <h3>Interactive Page with Image Filters </h3> </td>
+    <tr>
+      <td align="center "><b>Load Image</br> 
+        <input type="file" multiple="false" accept="image/*" id="img" class="button" onchange="loadImage()"> </br>
+  <div></div></br>
+  Choose Filter </b></br>
+        <input type="button" value="RedFilter" class="button" onclick="redFilter()"></br>
+        <input type="button" value="GreeenFilter" class="button" onclick="greenFilter()"></br>
+        <input type="button" value="Grayscale filter" class="button" onclick="grayscaleFilter()"> </br>
+        <input type="button" value="Not Yet" class="button" onclick="Interesting()"> </br>
+        <input type="button" value="Rainbow filter" class="button" onclick="rainbowFilter()"> </br>
+        <input type="button" value="Blur filter" class="button" onclick="blurFilter()"> </br>
+        <input type="button" value="ResetFilter" class="button" onclick="resetFilter()" id="img2"> </br>
+      </td>
+      <td>
+        <canvas id="can">   </canvas>
+      </td>
+    </tr>
+</table>
+
+</html>

@@ -1,0 +1,13 @@
+canvas{ height: 150pt; border: 1px solid blue;}
+
+.button{width: 300px;}
+
+input{font-size: 15pt;}
+
+body{  margin: 30pt 30pt 30pt 50pt;
+  font-family: Ariel;  font-size: 20pt;
+  background-color: grey   ;}
+canvas{
+  margin: 10pt;  border: 5px solid blue;
+  background-color: black; 
+
